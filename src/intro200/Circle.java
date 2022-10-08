@@ -1,6 +1,6 @@
 package intro200;
 
-public class Circle {
+public class Circle implements Shape {
 
     // The radius of the circle
     private double radius;
@@ -33,11 +33,11 @@ public class Circle {
     }
 
     /**
-     * Get the circumference of the circle
+     * Get the perimeter/circumference of the circle
      * 
      * @return The circumference of the circle
      */
-    public double getCircumference() {
+    public double getPerimeter() {
         return 2 * Math.PI * radius;
     }
 

@@ -4,7 +4,7 @@ package intro200;
  * A rectangle is a geometric shape that has 4 sides, 4 rectangle angles (90 degree angles)
  * The opposite sides are always the same length
  */
-public class Rectangle {
+public class Rectangle implements Shape {
 
     // The length of the rectangle
     private double length;

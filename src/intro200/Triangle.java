@@ -1,6 +1,6 @@
 package intro200;
 
-public class Triangle {
+public class Triangle implements Shape {
 
     private double a;
     private double b;
