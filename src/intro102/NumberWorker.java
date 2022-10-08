@@ -31,6 +31,11 @@ public class NumberWorker {
         System.out.println("my Float is " + myFloat);
         System.out.println("my Double is " + myDouble);
 
+        // When casting a double to an int you will lose the decimal point and the result will be an int
+        double myNewDouble = 64.3714;
+        System.out.println("myNewDouble = " + myNewDouble);
+        System.out.println("myNewDoble when casted to an integee: " + (int) myNewDouble);
+
         // You can use operators to manipulate numbers
         // The + operator can be used to add numbers
         // The - operator can be used to subtract numbers
