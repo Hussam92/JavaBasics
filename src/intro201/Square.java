@@ -1,4 +1,4 @@
-package intro200;
+package intro201;
 
 public class Square implements Shape {
     private double side;
@@ -20,6 +20,6 @@ public class Square implements Shape {
     }
 
     public String toString() {
-        return "Square with side " + side;
+        return "Square with side " + side + " has area " + getArea() + " and perimeter " + getPerimeter();
     }
 }

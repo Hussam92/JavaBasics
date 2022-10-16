@@ -1,4 +1,4 @@
-package intro203;
+package intro304;
 
 public interface MyList<T> {
     public void add(T t);

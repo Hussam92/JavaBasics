@@ -1,4 +1,4 @@
-package intro200;
+package intro201;
 
 /**
  * A rectangle is a geometric shape that has 4 sides, 4 rectangle angles (90 degree angles)

@@ -1,4 +1,4 @@
-package intro200;
+package intro201;
 
 /**
  * Interfaces in Java are a way of defining a contract of a class
